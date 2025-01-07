@@ -1,0 +1,17 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Movies</title>
+        <meta name="viewport" content-scale="1.0">
+    </head>
+    <body>
+        <h1>Movies</h1>
+        <ul>
+
+        {% for movie in movies %}
+            <li>{{movie.title}}</li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
